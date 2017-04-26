@@ -1,0 +1,20 @@
+int j=0;
+    private void jButton11MousePressed(java.awt.event.MouseEvent evt) {
+        // TODO add your handling code here:
+        j++;
+        if(j%2!=0)
+            jButton11.setBackground(Color.blue);
+        else
+            jButton11.setBackground(Color.green);
+    }
+
+    private void jButton11MouseEntered(java.awt.event.MouseEvent evt) {
+        // TODO add your handling code here:
+        if(j%2==0)
+         jButton11.setBackground(Color.cyan);
+    }
+
+    private void jButton11MouseExited(java.awt.event.MouseEvent evt) {
+        if(j%2==0)
+        jButton11.setBackground(Color.green);        // TODO add your handling code here:
+    }
